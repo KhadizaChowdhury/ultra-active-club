@@ -16,7 +16,7 @@ const Course = (props) => {
             </div>
             {/* Option 1
             <button onClick={addList}>Add To List</button> */}
-            <button className='addList' onClick={ () => addToList(time)}>Add To List</button>
+            <button className='addList' onClick={ () => addToList(course)}>Add To List</button>
         </div>
         </div>
         

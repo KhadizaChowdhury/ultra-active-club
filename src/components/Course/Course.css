@@ -9,8 +9,9 @@
     margin-bottom: 34px;
 }
 .course img{
-    height: 286px;
     width: 286px;
+    height: 140px;
+    object-fit: contain;
     left: 7px;
     top: 8px;
     border-radius: 8px;

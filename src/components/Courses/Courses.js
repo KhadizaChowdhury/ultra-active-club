@@ -1,23 +1,23 @@
 import React, { useEffect, useState } from 'react';
 import Course from '../Course/Course';
+import Summary from '../Summary/Summary';
 import './Courses.css'
 
 const Courses = () => {
     const [courses, setAllCourses] = useState([]);
-    const [time, setTime] = useState([]);
+    const [list, setList] = useState([]);
 
     useEffect( ()=> {
         fetch('courses.json')
         .then(res => res.json())
         .then(data => setAllCourses(data))
-        .then(data => console.log(data))
+        // .then(data => console.log(data))
     }, [])
 
-    const addToList = (time) => {
-        console.log(time, 'added')
-        // time.push(course);
-        const newTime = [...time, time];
-        setTime(newTime);
+    const addToList = (course) => {
+        // list.push(course);
+        const newList = [...list, course];
+        setList(newList);
     }
     // const addList = () => addToList(id);
 
@@ -38,8 +38,7 @@ const Courses = () => {
                 </div>
             </div>
             <div className='col-3'>
-                <h2>Order Summary</h2>
-                <h3>Selected Items: {time}</h3>
+                <Summary list={list}></Summary>
             </div>
         </div>
     );

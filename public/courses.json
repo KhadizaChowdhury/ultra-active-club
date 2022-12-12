@@ -1,59 +1,65 @@
 [
   {
-    "id": "124e13b9-2d54-4b2f-a74d-a77b362d6ead",
+    "id": "13cbc7ed-a61b-4883-9d42-82d7d8642b86",
     "category": "Web Development",
-    "img": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/96a5f085fedf4e678095abad01056711_9366/Lite_Racer_Adapt_3.0_Shoes_Black_FX8802_01_standard.jpg",
-    "name": "Full Stack Web Development",
-    "launched": "Shikhbe Shobai",
-    "time": "7",
+    "img": "/img/web-1.jfif",
+    "name": "Complete Web Development",
+    "launched": "Programming Hero",
+    "time": 6,
     "age": "Beginner"
   },
   {
-    "id": "13cbc7ed-a61b-4883-9d42-82d7d8642b86",
-    "category": "Men's Sneaker",
-    "img": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/96a5f085fedf4e678095abad01056711_9366/Lite_Racer_Adapt_3.0_Shoes_Black_FX8802_01_standard.jpg",
-    "name": "ULTRABOOST 22 SHOES",
-    "time": "Addidas",
-    "age": 4
-  },
-  {
     "id": "307f166f-1d04-4573-bc37-2f461ea9d4f7",
-    "category": "Men's Sneaker",
-    "img": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/96a5f085fedf4e678095abad01056711_9366/Lite_Racer_Adapt_3.0_Shoes_Black_FX8802_01_standard.jpg",
-    "name": "ULTRABOOST 22 SHOES",
-    "time": "Addidas",
-    "age": 4
-  },
-  {
-    "id": "4bf9798f-63bc-4a83-b0c6-6a3b816fe922",
-    "category": "Men's Sneaker",
-    "img": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/96a5f085fedf4e678095abad01056711_9366/Lite_Racer_Adapt_3.0_Shoes_Black_FX8802_01_standard.jpg",
-    "name": "ULTRABOOST 22 SHOES",
-    "time": "Addidas",
-    "age": 4
-  },
-  {
-    "id": "9496d72b-04ec-41f8-9bc3-0a7c9697be8e",
-    "category": "Men's Sneaker",
-    "img": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/96a5f085fedf4e678095abad01056711_9366/Lite_Racer_Adapt_3.0_Shoes_Black_FX8802_01_standard.jpg",
-    "name": "ULTRABOOST 22 SHOES",
-    "time": "Addidas",
-    "age": 4
+    "category": "Web Development",
+    "img": "/img/web-1.png",
+    "name": "Full Stack Web Development",
+    "launched": "Shikhbe Shobai",
+    "time": 8,
+    "age": "Beginner"
   },
   {
     "id": "6e5593d3-557b-43cf-8dab-a5140faedfb0",
-    "category": "Men's Sneaker",
-    "img": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/96a5f085fedf4e678095abad01056711_9366/Lite_Racer_Adapt_3.0_Shoes_Black_FX8802_01_standard.jpg",
-    "name": "ULTRABOOST 22 SHOES",
-    "time": "Addidas",
-    "age": 4
+    "category": "Web Development",
+    "img": "/img/laravel.png",
+    "name": "PHP & Laravel",
+    "launched": "Shikhbe Shobai",
+    "time": 8,
+    "age": "Advanced"
+  },
+  {
+    "id": "4bf9798f-63bc-4a83-b0c6-6a3b816fe922",
+    "category": "Combo",
+    "img": "/img/combo.png",
+    "name": "Combo Graphic & Web Design",
+    "launched": "Shikhbe Shobai",
+    "time": 8,
+    "age": "Beginner"
+  },
+  {
+    "id": "9496d72b-04ec-41f8-9bc3-0a7c9697be8e",
+    "category": "Graphic Design",
+    "img": "/img/motion.png",
+    "name": "Full Stack Motion Graphics",
+    "launched": "Shikhbe Shobai",
+    "time": 6,
+    "age": "Beginner"
   },
   {
     "id": "9c0c13c2-54e4-4001-809b-afbd9d84037d",
-    "category": "Men's Sneaker",
-    "img": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/96a5f085fedf4e678095abad01056711_9366/Lite_Racer_Adapt_3.0_Shoes_Black_FX8802_01_standard.jpg",
-    "name": "ULTRABOOST 22 SHOES",
-    "time": "Addidas",
-    "age": 4
+    "category": "Graphic Design",
+    "img": "/img/graphic-1.png",
+    "name": "Graphic & UI Design",
+    "launched": "Shikhbe Shobai",
+    "time": 4,
+    "age": "Beginner"
+  },
+  {
+    "id": "124e13b9-2d54-4b2f-a74d-a77b362d6ead",
+    "category": "Web Development",
+    "img": "/img/redux.jfif",
+    "name": "Think in a Redux Way",
+    "launched": "Learn with Sumit",
+    "time": 2,
+    "age": "Advanced"
   }
 ]
