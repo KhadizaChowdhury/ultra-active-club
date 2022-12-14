@@ -1,11 +1,12 @@
-.App {
+.App{
+  background-color: #d0e4ef8f;
 }
 .container{
   max-width: 1300px;
   margin: auto;
 }
 body{
-  background-color: #FFFFFF;
+  color: #1e266d!important;
 }
 .App-logo {
   height: 40vmin;

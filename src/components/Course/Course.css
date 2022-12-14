@@ -59,9 +59,13 @@
     right: 0%;
     bottom: 0%;
     padding: 8px;
-    background: #FFE0B3;
+    color: #fff;
+    background: #0088CC;
     border: 1px solid #95A0A7;
     border-radius: 0px 0px 8px 8px;
+}
+.course .addList:hover{
+    background-color: #1e266d;
 }
 .course .fa-list-shopping{
     margin-left: 5px;

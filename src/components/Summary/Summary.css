@@ -1,0 +1,13 @@
+.student{
+    background-color: #fff;
+    padding: 15px;
+}.info{
+    background-color: #d0e4ef8f;
+    margin: 20px 0;
+    padding: 10px;
+    border-radius: 10px;
+}
+.p-info.p-info{
+    font-size: 25px;
+    font-weight: 700;
+}
