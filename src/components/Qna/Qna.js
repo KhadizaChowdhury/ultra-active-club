@@ -41,11 +41,11 @@ const Qna = () => {
           <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
             <div class="accordion-body">
               <ul>
-                <li>Running on state change: validating input field.</li>
+                <li><h6>Running on state change: validating input field.</h6></li>
                 <p>Validating an input while it's receiving characters is another great application for useEffect. Whilst the input is being stored in a state using useState, the validation takes place every time the input changes, giving immediate feedback to the user.</p>
-                <li>Running on state change: live filtering</li>
+                <li><h6>Running on state change: live filtering</h6></li>
                 <p>We can use useEffect to filter an array "on the fly" by typing letters into an input element. To do so, we will need to use a state to save the input, and a filter implementation inside the useEffect that will be triggered when the input changes, thanks to useEffect dependencies.</p>
-                <li>Running on state change: trigger animation on new array value.</li>
+                <li><h6>Running on state change: trigger animation on new array value.</h6></li>
                 <p>We can use the useEffect hook to trigger an animation on a shopping cart as a side effect of adding a new product to it. In this case, we'll need a state to handle the cart items, and another state to handle the animation trigger.</p>
               </ul>
             </div>

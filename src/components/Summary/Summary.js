@@ -49,7 +49,7 @@ const Summary = (props) => {
                     <img className='img-fluid' src="img/avatar.png" alt="" />
                 </div>
                 <div className="d-inline-block p-2"><h3>Aidah Yildiz</h3>
-                    <div><FontAwesomeIcon icon={faLocationDot} />Istanbul, Turkey</div>
+                    <div><FontAwesomeIcon icon={faLocationDot} /><span className='location'>Istanbul, Turkey</span></div>
                 </div>
             </div>
             <div className='summary-info'>
