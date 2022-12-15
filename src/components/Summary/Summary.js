@@ -2,11 +2,13 @@ import React, { useEffect, useState } from 'react';
 import './Summary.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLocationDot } from '@fortawesome/free-solid-svg-icons'
-import { click } from '@testing-library/user-event/dist/click';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 import BreakTime from '../BreakTime/BreakTime';
 
 const Summary = (props) => {
     const {list} = props;
+    const courseComplete = () => toast("Congratulations! Wishing you a very successful Life");
     // const {time}= bTime;
     const [breakTimes, setBreakTime] = useState([]);
     const [brkTime, setTime] = useState([]);
@@ -83,7 +85,8 @@ const Summary = (props) => {
                 <div className="info">
                 <h6>Break Time: <span className='time'>{brTime} days</span></h6>
                 </div>
-                <button className='completed'>Activity Complited</button>
+                <button className='completed' onClick={courseComplete}>Activity Complited</button>
+                <ToastContainer />
             </div>
         </div>
     );
