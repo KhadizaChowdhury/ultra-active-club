@@ -13,7 +13,9 @@ function App() {
     <div className="App">
       <div className='container'>
         {/* <Button>gj</Button> */}
-        <Courses></Courses>
+        <div className='container'>
+          <Courses></Courses>
+        </div>
         <div class="container accordion my-5" id="accordionExample">
         <h3 class="text-center mb-5">Q&A</h3>
         <div class="accordion-item">

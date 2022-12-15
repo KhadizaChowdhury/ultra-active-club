@@ -53,7 +53,7 @@ const Summary = (props) => {
                 </div>
             </div>
             <div className='summary-info'>
-                <div className="row info">
+                <div className="row prl-info">
                     <div className="col-sm">
                         <span className='p-info'>55</span><span>kg</span>
                         <p>Weight</p>
