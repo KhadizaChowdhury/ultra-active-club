@@ -8,10 +8,11 @@ import BreakTime from '../BreakTime/BreakTime';
 
 const Summary = (props) => {
     const {list} = props;
-    const courseComplete = () => toast("Congratulations! Wishing you a very successful Life");
     // const {time}= bTime;
     const [breakTimes, setBreakTime] = useState([]);
     const [brkTime, setTime] = useState([]);
+    const courseComplete = () => 
+        toast("Congratulations! Wishing you a very successful Life");
 
     useEffect( ()=> {
         fetch('breaktime.json')
@@ -30,18 +31,18 @@ const Summary = (props) => {
     for (const course of list) {
         cTime = cTime + course.time;
     }
-    let brTime =0;
+    let brTime = 0;
     for (const bTime of brkTime) {
-        brTime = bTime.time;
+        if(!brTime===0){
+            brTime = bTime.time;
+        }
+        else{
+            brTime = bTime.time;
+            localStorage.setItem("breaktime", JSON.stringify(brTime))
+        }
     }
-    localStorage.setItem("breaktime", JSON.stringify(brTime))
-    
-    const store = (id) =>{
-        let BrkTime = {};
-        
-        console.log(id ,"clicked")
-    }
-        return (
+
+    return (
         <div>
             <div className='d-flex align-items-center'>
                 <div className="d-inline-block w-25">
