@@ -17,6 +17,7 @@
     border-radius: 8px;
 }
 .course .name{
+    height: 45px;
     font-family: 'Lato';
     font-style: normal;
     font-weight: 400;
@@ -60,12 +61,12 @@
     bottom: 0%;
     padding: 8px;
     color: #fff;
-    background: #0088CC;
+    background: #0088cca6;
     border: 1px solid #0088CC;
     border-radius: 8px;
 }
 .course .addList:hover{
-    background-color: #1e266d;
+    background-color: #0088CC;
 }
 .course .fa-list-shopping{
     margin-left: 5px;

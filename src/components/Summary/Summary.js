@@ -43,7 +43,7 @@ const Summary = (props) => {
     }
 
     return (
-        <div>
+        <div className='summary'>
             <div className='d-flex align-items-center'>
                 <div className="d-inline-block w-25">
                     <img className='img-fluid' src="img/avatar.png" alt="" />

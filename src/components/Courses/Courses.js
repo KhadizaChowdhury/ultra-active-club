@@ -42,7 +42,6 @@ const Courses = () => {
             <div className='student col-12 col-lg-3'>
                 <Summary
                     list={list}></Summary>
-                
             </div>
         </div>
     );
