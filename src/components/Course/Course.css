@@ -61,8 +61,8 @@
     padding: 8px;
     color: #fff;
     background: #0088CC;
-    border: 1px solid #95A0A7;
-    border-radius: 0px 0px 8px 8px;
+    border: 1px solid #0088CC;
+    border-radius: 8px;
 }
 .course .addList:hover{
     background-color: #1e266d;

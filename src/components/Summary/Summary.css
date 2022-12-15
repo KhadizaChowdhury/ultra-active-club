@@ -6,8 +6,21 @@
     margin: 20px 0;
     padding: 10px;
     border-radius: 10px;
+}.info .time{
+    font-weight: 400;
 }
 .p-info.p-info{
     font-size: 25px;
     font-weight: 700;
+}
+.info button{
+    margin: 5px;
+}
+.completed{
+    width: -webkit-fill-available;
+    padding: 8px;
+    color: #fff;
+    background: #0088CC;
+    border: 1px solid #0088CC;
+    border-radius: 8px;
 }
