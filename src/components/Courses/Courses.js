@@ -19,7 +19,22 @@ const Courses = () => {
     const addToList = (course) => {
         // console.log(course);
         // list.push(course);
-        const newList = [...list, course];
+        // const newList = [...list, course];
+        // setList(newList);
+
+        let newList = [];
+        const exists = list.find(product => product.id === course.id);
+        if(!exists){
+            console.log(course.name, 'added in Cart');
+            course.quantity = 1;
+            newList = [...list, course];
+        }
+        else{
+            console.log(course.name, 'Already added in Cart');
+            const rest = list.filter(product => product.id !== course.id);
+            exists.quantity = exists.quantity + 1;
+            newList = [...rest, exists];
+        }
         setList(newList);
     }
     // const addList = () => addToList(id);
